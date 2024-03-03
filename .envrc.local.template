@@ -1,0 +1,3 @@
+# put local environment variables here (then use them to compose others in `.envrc`)
+export BR2_DL_DIR="${XDG_CACHE_HOME:-${HOME}/.cache}/buildroot/dl"
+export BR2_CCACHE_DIR="${XDG_CACHE_HOME:-${HOME}/.cache}/buildroot/ccache"
