@@ -1,3 +1,20 @@
+## local
+
+**/tmp/
+.aws-config
+
+# env (devenv, direnv, dotenv) files
+.devenv/
+.direnv/
+.envrc*
+!.envrc
+!.envrc*.template
+
+# editor temp files
+.\#*
+
+## upstream
+
 # The directory Mix will write compiled artifacts to.
 /_build/
 
