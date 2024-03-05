@@ -1,0 +1,10 @@
+# ngrok-agent binary
+
+menuconfig BR2_PACKAGE_NGROK_AGENT
+    bool "ngrok-agent"
+    help
+        The ngrok agent is a lightweight command-line program that
+        forwards traffic from endpoints it creates on the ngrok edge
+        to your upstream application services.
+
+        https://ngrok.com/download
