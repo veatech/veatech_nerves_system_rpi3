@@ -16,8 +16,8 @@
         pkgs = nixpkgs.legacyPackages.${system};
 
         # Set the Erlang and Elixir versions for Nerves compatibility
-        erlangVersion = "erlangR26";
-        elixirVersion = "elixir_1_16";
+        erlangVersion = "erlang_27";
+        elixirVersion = "elixir_1_17";
 
         erlang = pkgs.beam.interpreters.${erlangVersion};
         elixir = pkgs.beam.packages.${erlangVersion}.${elixirVersion};
